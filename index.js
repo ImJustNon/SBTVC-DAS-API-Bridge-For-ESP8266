@@ -10,7 +10,7 @@ const morgan = require("morgan");
 // cofig
 const config = {
     app: {
-        port: process.env.PORT || 8080
+        port: process.env.PORT || 1756
     },
     api: {
         sik: {
