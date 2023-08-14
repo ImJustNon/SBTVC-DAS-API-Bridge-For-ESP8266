@@ -1,0 +1,21 @@
+{
+  "name": "sbtvc_api_bridge_for_arduino",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
+  }
+}
