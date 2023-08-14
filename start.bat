@@ -5,6 +5,6 @@ title API_BRIDGE_FOR_ESP8266
 
 git pull
 
-node ./index.js
+yarn install && yarn start
 
 goto start_server
